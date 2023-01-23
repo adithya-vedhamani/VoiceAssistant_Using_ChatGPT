@@ -7,7 +7,7 @@ from gtts import gTTS
 import os
 
 
-openai.api_key = "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"
+openai.api_key = "Enter-Your-API key"
 completion = openai.Completion()
 engine = pyttsx3.init('sapi5') 
 voices = engine.getProperty('voices')
